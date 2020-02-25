@@ -1,0 +1,109 @@
+.footer {
+  background-color: $clr6;
+  height: 310px;
+  padding-left: 15px;
+}
+
+.footer-subcontainer {
+  padding-top: 72px;
+}
+
+.footer-logo-container {
+  margin-right: 260px;
+}
+
+.footer-sub-menu {
+  min-width: 115px;
+}
+
+.features {
+  margin-right: 76px;
+}
+
+.resources {
+  margin-right: 75px;
+}
+
+.company {
+  margin-right: 65px;
+}
+
+.footer-sub-menu-title {
+  color: $clr1;
+  height: 24px;
+  margin-bottom: 22px;
+  letter-spacing: -0.25px;
+}
+
+.footer-sub-menu-category {
+  width: 100%;
+  height: 23px;
+}
+
+.footer-sub-menu-category:hover {
+  color: $clr7;
+}
+
+.footer-sub-menu-category:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.social-container div:not(:last-child) {
+  margin-right: 24px;
+}
+
+.icon-container {
+  height: 24px;
+  width: 24px;
+}
+
+.twitter {
+  padding-top: 3px;
+}
+
+@include for-tablet-layout {
+}
+
+@include for-mobile-layout {
+  .footer {
+    height: 886px;
+    font-size: rem(15px);
+    padding-left: unset;
+  }
+
+  .footer-subcontainer {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 54px;
+  }
+
+  .footer-sub-menu {
+    text-align: center;
+  }
+
+  .footer-logo-container {
+    margin-right: 0;
+    margin-bottom: 49px;
+  }
+
+  .features {
+    margin-right: 0;
+    margin-bottom: 38px;
+  }
+  
+  .resources {
+    margin-right: 0;
+    margin-bottom: 38px;
+  }
+
+  .company {
+    margin-right: 0;
+  }
+
+  .footer-sub-menu-title {
+    margin-top: 22px;
+  }
+  .social-container {
+    margin-top: 46px;
+  }
+}

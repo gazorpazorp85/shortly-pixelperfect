@@ -1,0 +1,20 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/buttons.scss";
+@import "basics/typography.scss";
+
+// components
+@import "cmps/NavBar.scss";
+@import "cmps/MobileMenu.scss";
+@import "cmps/CallToAction.scss";
+@import "cmps/Footer.scss";
+
+@import "cmps/home/HomeHero.scss";
+@import "cmps/home/Statistics.scss";

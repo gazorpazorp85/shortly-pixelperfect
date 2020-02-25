@@ -1,0 +1,65 @@
+.btn {
+  background-color: $clr7;
+  color: $clr1;
+  border-radius: 28px;
+}
+
+.btn:hover {
+  background-color: #9ae3e3;
+}
+
+.bar-btn {
+  width: 105px;
+  height: 40px;
+}
+
+.get-started {
+  width: 197px;
+  height: 56px;
+}
+
+.shorten {
+  width: 188px;
+  height: 64px;
+  border-radius: 10px;
+}
+
+.shorten-txt {
+  margin-left: 12px;
+}
+
+.btn-txt {
+  width: 117px;
+  height: 30px;
+  font-family: "poppins-bold";
+  font-size: rem(20px);
+  line-height: 30px;
+}
+
+.mobile-menu-btn {
+  width: 279px;
+  height: 48px;
+}
+
+.mobile-menu-btn-txt {
+  width: 69px;
+  height: 27px;
+  font-size: rem(18px);
+  text-align: center;
+}
+
+@include for-mobile-layout {
+  .shorten {
+    width: 279px;
+    height: 48px;
+    border-radius: 5px;
+  }
+
+  .btn-txt {
+    font-size: rem(18px);
+  }
+
+  .get-started-txt {
+    margin-left: 18px;
+  }
+}
